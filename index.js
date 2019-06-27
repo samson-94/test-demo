@@ -1,4 +1,5 @@
 $(function () {
+    console.log(1);
     function GetQueryString(name)
     {
         var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
